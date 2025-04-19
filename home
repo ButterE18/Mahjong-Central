@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn and master Mahjong.">
+  <!-- Meta tags for accessibility and responsiveness -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn and track Mahjong with guides, tools, and customizable scoring options.">
   <title>Mahjong Central - Home</title>
-  <link rel="stylesheet" href="style.css">
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Site Header and Navigation -->
   <header>
-    <h1>Welcome to Mahjong Central</h1>
+    <h1>Mahjong Central</h1>
     <nav>
       <ul>
+        <!-- Menu items link to different pages or sections -->
         <li><a href="index.html">Home</a></li>
-        <li><a href="learn.html">Learn Mahjong</a></li>
+        <li><a href="learn.html">Learn</a></li>
         <li><a href="score.html">Score Tracker</a></li>
-        <li><a href="variant.html">Variant Comparison</a></li>
+        <li><a href="rules.html">Custom Rules</a></li>
+        <li><a href="terms.html">Terminology</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
+
+  <!-- Main content section -->
   <main>
-    <section>
-      <h2>Discover the Excitement of Mahjong</h2>
-      <p>Mahjong is a popular game that combines skill, strategy, and a bit of luck. Whether you play Riichi or Chinese Mahjong, our site has everything you need to learn and track your games.</p>
-      <img src="images/mahjong-table.jpg" alt="Mahjong Game in Progress">
+    <section id="home">
+      <h2>Welcome to Mahjong Central</h2>
+      <p>
+        Dive into the world of Mahjong. Whether you're playing Riichi, Chinese, or a homegrown variant,
+        Mahjong Central is here to help you learn the rules, track your scores, and understand the terminology.
+      </p>
+      <!-- Example image -->
+      <img src="images/mahjong_intro.jpg" alt="Mahjong tiles arranged on a table">
     </section>
   </main>
+
+  <!-- Footer section -->
   <footer>
-    <p>&copy; 2025 Mahjong Central</p>
+    <p>&copy; 2025 Mahjong Central. Designed with tradition in mind.</p>
   </footer>
 </body>
 </html>
