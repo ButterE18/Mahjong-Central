@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta tags for accessibility and responsiveness -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Learn and track Mahjong with guides, tools, and customizable scoring options.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mahjong Central - Learn, Play, and Master Mahjong">
+  <meta name="keywords" content="Mahjong, Riichi, Chinese Mahjong, Learn Mahjong, Score Tracker">
+  <meta name="author" content="College Student Project">
   <title>Mahjong Central - Home</title>
-  <!-- Link to external stylesheet -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Site Header and Navigation -->
   <header>
     <h1>Mahjong Central</h1>
+    <!-- Main site navigation -->
     <nav>
       <ul>
-        <!-- Menu items link to different pages or sections -->
         <li><a href="index.html">Home</a></li>
         <li><a href="learn.html">Learn</a></li>
         <li><a href="score.html">Score Tracker</a></li>
-        <li><a href="rules.html">Custom Rules</a></li>
-        <li><a href="terms.html">Terminology</a></li>
+        <li><a href="rules.html">Rules</a></li>
+        <li><a href="terminology.html">Terminology</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Main content section -->
   <main>
-    <section id="home">
+    <section>
       <h2>Welcome to Mahjong Central</h2>
-      <p>
-        Dive into the world of Mahjong. Whether you're playing Riichi, Chinese, or a homegrown variant,
-        Mahjong Central is here to help you learn the rules, track your scores, and understand the terminology.
-      </p>
-      <!-- Example image -->
-      <img src="images/mahjong_intro.jpg" alt="Mahjong tiles arranged on a table">
+      <p>This site is created as a college project to help players learn, track, and master Mahjong. Whether you're a fan of Riichi or Chinese Mahjong, we’ve got you covered with interactive learning tools and a scoring tracker!</p>
+      <img src="images/mahjong-table.jpg" alt="Mahjong Table Setup" width="500">
+    </section>
+
+    <section>
+      <h2>What's Inside?</h2>
+      <ul>
+        <li>Official rules and beginner guides</li>
+        <li>Interactive scoring tracker</li>
+        <li>Custom scoring setup for home games</li>
+        <li>Glossary of Mahjong terms with definitions</li>
+        <li>Contact form for feedback and questions</li>
+      </ul>
     </section>
   </main>
 
-  <!-- Footer section -->
   <footer>
-    <p>&copy; 2025 Mahjong Central. Designed with tradition in mind.</p>
+    <p>&copy; 2025 Mahjong Central. Designed by a passionate student learning web development.</p>
   </footer>
 </body>
 </html>
